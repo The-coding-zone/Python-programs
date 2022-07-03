@@ -21,7 +21,7 @@ def shield(r, color):
   t.circle(r)
   t.end_fill()
   
-def America(r, color):
+def america(r, color):
   cap(0,0)
   t.pencolor(color)
   t.setheading(162)
@@ -38,9 +38,9 @@ def America(r, color):
     t.hideturtle()
     
  if _name_ == '_main_':
-    golo(288, 'crimson')
-    golo(234, 'snow')
-    golo(174, 'crimson')
-    golo(114, 'blue')
-    America(114, 'snow')
+    turtle.circle(288, 'crimson')
+    turtle.circle(234, 'snow')
+    turtle.circle(174, 'crimson')
+    turtle.circle(114, 'blue')
+    america(114, 'snow')
     turtle.done()
