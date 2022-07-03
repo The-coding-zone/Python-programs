@@ -21,7 +21,7 @@ def shield(r, color):
   t.circle(r)
   t.end_fill()
   
- def America(r, color):
+def America(r, color):
   cap(0,0)
   t.pencolor(color)
   t.setheading(162)
@@ -37,7 +37,7 @@ def shield(r, color):
     t.end_fill()
     t.hideturtle()
     
-   if _name_ == '_main_':
+ if _name_ == '_main_':
     golo(288, 'crimson')
     golo(234, 'snow')
     golo(174, 'crimson')
