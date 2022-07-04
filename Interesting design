@@ -1,0 +1,11 @@
+from turtle import*
+
+speed(0)
+bgcolor('black')
+color('cyan')
+
+for i in range (300):
+ fd(i*2)
+ rt(121)
+
+done()
