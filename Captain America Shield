@@ -38,9 +38,9 @@ def america(r, color):
     t.hideturtle()
     
  if _name_ == '_main_':
-    turtle.circle(288, 'crimson')
-    turtle.circle(234, 'snow')
-    turtle.circle(174, 'crimson')
-    turtle.circle(114, 'blue')
+    shield(288, 'crimson')
+    shield(234, 'snow')
+    shield(174, 'crimson')
+    shield(114, 'blue')
     america(114, 'snow')
-    turtle.done()
+turtle.done()
